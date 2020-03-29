@@ -29,7 +29,7 @@ namespace WindowsFormsApp1
         }
 
 
-        //кнопка войти
+        //Кнопка "войти"
         private void button1_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection(@"Data Source=НАСТЯ-ПК\SQLEXPRESS;Initial Catalog=Fabrika;Integrated Security=True");
